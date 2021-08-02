@@ -1141,9 +1141,7 @@ display: none;
     .top-buttons{
       margin-top: 50rem;
     }
-    .mob{
-      display: none;
-    }
+
     /*About*/
     .my_description p {
       font-size: 1.3rem;
@@ -1157,20 +1155,7 @@ display: none;
       margin: 0;
     }
     
-    .banner{
-      margin-top: 2%;
-    }
-    .banner img{
-      width: 18rem;
-      height: auto;
-    }
 
-    #instabanner{
-      margin: -3rem 4rem;
-      padding: none;
-      width: 350px;
-      height: 350px;
-    }
   }
   
   
@@ -1191,10 +1176,6 @@ display: none;
       width: 250px;
     }
 
-
-    .mob{
-      display: none;
-    }
     /*About*/
     .my_description p {
       font-size: 1.3rem;
