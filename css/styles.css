@@ -89,7 +89,7 @@ body {
 }
 
 
-img .cover-logo {
+.cover-logo {
   width: 30rem;
   height: auto;
 }
@@ -118,7 +118,7 @@ img .cover-logo {
 
 
 .top-buttons{
-  margin-top: 19rem;
+  margin-top: 20rem;
   z-index: 0;
 }
 
