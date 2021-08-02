@@ -15,13 +15,6 @@
     margin-right: auto;
   }
 
-  
-    .top-buttons a {
-      font-size: 1.2rem;
-      width: 11rem;
-      margin: 5% 0 ;
-    }
-  
     /*menu*/
     .main_menu {
       display: none;
@@ -94,8 +87,10 @@
     #contact_me {
       font-size: 1rem;
       width: 130px;
+      margin-bottom: 0;
     }
 
+    /*NOT DISPLAYED*/
 .media{
   display: none;
 }
@@ -104,30 +99,32 @@
   display: none;
 } 
 
-.white2-mobile{
-  display: block;
-  color: #fff;
-  height: 300px;
+.white21{
+  display: none;
 } 
 .white-contact {
-display: none;}
+  display: none;}
+/*-----*/
+
+.mob{
+  display: block;
+}
+
 
 .white-mobile {
-  display: block;
   color: #fff;
-  min-height: 350px;
-  padding: 2rem 0;
-  margin: 2rem 0;}
+  min-height: 250px}
 
-.white {
-  max-height: 600px;
-  margin: 1rem 0 1rem 0;
-padding:  0.5rem 0;
-}
 
 .media-icons{
   font-size: 4rem;
   margin: auto;
+}
+
+
+.slide {
+  margin: auto;
+  width: auto;
 }
 
 #Instant{
@@ -144,9 +141,8 @@ padding:  0.5rem 0;
   font-size: 1rem;
   width: 150px;
 }
-.banner{
-  display: none;
-}
+
+
 
   }
   /*<<<<<<<<<from 376px to 414px>>>>>>>>>>>>>*/
@@ -157,19 +153,14 @@ padding:  0.5rem 0;
     }
   
     /*Video element*/
-    .cover-logo{
-      width: 20px;
-      padding: 1rem 3.5rem 0 0;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    .top-buttons a {
-      font-size: 1.2rem;
-      width: 11rem;
-      margin: 5% 0 ;
-    }
-  
+
+  .cover-logo{
+    width: 20px;
+    padding: 1rem 4rem 0 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
     /*menu*/
     .main_menu {
       display: none;
@@ -184,6 +175,7 @@ padding:  0.5rem 0;
       box-sizing: border-box;
       color: #ffffff;
     }
+
 
     iframe{
       max-width:300px ;
@@ -241,8 +233,10 @@ padding:  0.5rem 0;
     #contact_me {
       font-size: 1rem;
       width: 130px;
+      margin-bottom: 0;
     }
 
+    /*NOT DISPLAYED*/
 .media{
   display: none;
 }
@@ -251,30 +245,32 @@ padding:  0.5rem 0;
   display: none;
 } 
 
-.white2-mobile{
-  display: block;
-  color: #fff;
-  height: 300px;
+.white21{
+  display: none;
 } 
 .white-contact {
-display: none;}
+  display: none;}
+/*-----*/
+
+.mob{
+  display: block;
+}
+
 
 .white-mobile {
-  display: block;
   color: #fff;
-  min-height: 350px;
-  padding: 1rem 0;
-  margin: 1rem 0;}
+  min-height: 250px}
 
-.white {
-  max-height: 650px;
-  margin: 1rem 0 1rem 0;
-padding:  0.5rem 0;
-}
 
 .media-icons{
   font-size: 4rem;
   margin: auto;
+}
+
+
+.slide {
+  margin: auto;
+  width: auto;
 }
 
 #Instant{
@@ -290,9 +286,6 @@ padding:  0.5rem 0;
 #Enviar{
   font-size: 1rem;
   width: 150px;
-}
-.banner{
-  display: none;
 }
   }
   
@@ -304,18 +297,14 @@ padding:  0.5rem 0;
     }
   
     /*Video element*/
-    .cover-logo{
-      width: 20px;
-      padding: 1rem 1.5rem 0 0;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .top-buttons a {
-      font-size: 1.2rem;
-      width: 11rem;
-      margin: 5% 0 ;
-    }
-  
+
+  .cover-logo{
+    width: 20px;
+    padding: 1rem 4rem 0 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
     /*menu*/
     .main_menu {
       display: none;
@@ -330,6 +319,7 @@ padding:  0.5rem 0;
       box-sizing: border-box;
       color: #ffffff;
     }
+
 
     iframe{
       max-width:300px ;
@@ -387,8 +377,10 @@ padding:  0.5rem 0;
     #contact_me {
       font-size: 1rem;
       width: 130px;
+      margin-bottom: 0;
     }
 
+    /*NOT DISPLAYED*/
 .media{
   display: none;
 }
@@ -397,30 +389,32 @@ padding:  0.5rem 0;
   display: none;
 } 
 
-.white2-mobile{
-  display: block;
-  color: #fff;
-  height: 300px;
+.white21{
+  display: none;
 } 
 .white-contact {
-display: none;}
+  display: none;}
+/*-----*/
+
+.mob{
+  display: block;
+}
+
 
 .white-mobile {
-  display: block;
   color: #fff;
-  min-height: 350px;
-  padding: 1rem 0;
-  margin: 1rem 0;}
+  min-height: 250px}
 
-.white {
-  max-height: 650px;
-  margin: 1rem 0 1rem 0;
-padding:  0.5rem 0;
-}
 
 .media-icons{
   font-size: 4rem;
   margin: auto;
+}
+
+
+.slide {
+  margin: auto;
+  width: auto;
 }
 
 #Instant{
@@ -436,9 +430,6 @@ padding:  0.5rem 0;
 #Enviar{
   font-size: 1rem;
   width: 150px;
-}
-.banner{
-  display: none;
 }
   }
   
@@ -450,19 +441,14 @@ padding:  0.5rem 0;
     }
   
     /*Video element*/
-    .cover-logo{
-      width: 20px;
-      padding: 1rem 0 0 1rem;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    .top-buttons a {
-      font-size: 1.2rem;
-      width: 11rem;
-      margin: 5% 0 ;
-    }
-  
+
+  .cover-logo{
+    width: 20px;
+    padding: 1rem 4rem 0 0;
+    margin-left: 3rem;
+    margin-right: auto;
+  }
+
     /*menu*/
     .main_menu {
       display: none;
@@ -478,9 +464,10 @@ padding:  0.5rem 0;
       color: #ffffff;
     }
 
+
     iframe{
       max-width:300px ;
-      height: 170px;
+      max-height: 270px;
     }
   
   
@@ -534,8 +521,10 @@ padding:  0.5rem 0;
     #contact_me {
       font-size: 1rem;
       width: 130px;
+      margin-bottom: 0;
     }
 
+    /*NOT DISPLAYED*/
 .media{
   display: none;
 }
@@ -544,30 +533,32 @@ padding:  0.5rem 0;
   display: none;
 } 
 
-.white2-mobile{
-  display: block;
-  color: #fff;
-  height: 300px;
+.white21{
+  display: none;
 } 
 .white-contact {
-display: none;}
+  display: none;}
+/*-----*/
+
+.mob{
+  display: block;
+}
+
 
 .white-mobile {
-  display: block;
   color: #fff;
-  min-height: 350px;
-  padding: 1rem 0;
-  margin: 1rem 0;}
+  min-height: 250px}
 
-.white {
-  max-height: 650px;
-  margin: 1rem 0 1rem 0;
-padding:  0.5rem 0;
-}
 
 .media-icons{
   font-size: 4rem;
   margin: auto;
+}
+
+
+.slide {
+  margin: auto;
+  width: auto;
 }
 
 #Instant{
@@ -584,36 +575,26 @@ padding:  0.5rem 0;
   font-size: 1rem;
   width: 150px;
 }
-.banner{
-  display: none;
-}
   }
   
   /*HASTA 780PX SE APLICAN CAMBIOS AL SCROLL DE LOS ENLACES*/
   
   /*<<<<<<<<<781px-1000>>>>>>>>>*/
   @media screen and (min-width: 781px) and (max-width: 900px) {
-    .container {
-      overflow-x: hidden;
-    }
     html #b-about,
     html #b-contact {
       scroll-behavior: smooth;
     }
   
     /*Video element*/
-    .cover-logo{
-      width: 20px;
-      margin-left: auto;
-      margin-right: auto;
-    }
 
-    .top-buttons a {
-      font-size: 1.5rem;
-      width: 11rem;
-      margin: 5% 5% ;
-    }
-  
+  .cover-logo{
+    width: 20px;
+    padding: 1rem 4rem 0 0;
+    margin-left: 3.5rem;
+    margin-right: auto;
+  }
+
     /*menu*/
     .main_menu {
       display: none;
@@ -629,7 +610,7 @@ padding:  0.5rem 0;
       color: #ffffff;
     }
 
-
+  
   
     #times {
       font-size: 40px;
@@ -673,55 +654,29 @@ padding:  0.5rem 0;
     }
   
     .my_description p {
-      font-size: 0.85rem;
+      font-size: 1rem;
       padding: 1.5rem;
-      margin-top: 10%;
+      margin: 0;
     }
-
-    iframe{
-      max-width:370px ;
-      height: 210px;
-      margin-top: 10%;;
+    .white2{
+      max-height: 200px;
     }
-  
   
     #contact_me {
       font-size: 1rem;
-      width: 150px;
+      width: 130px;
+      margin-bottom: 0;
     }
-
-.media{
-  display: none;
-}
-
-.white2{
-  display: none;
-} 
-
-.white2-mobile{
-  display: block;
-  color: #fff;
-  height: 300px;
-} 
-.white-contact {
-display: none;}
-
-.white-mobile {
-  display: block;
-  color: #fff;
-  min-height: 350px;
-  padding: 1rem 0;
-  margin: 1rem 0;}
-
-.white {
-  max-height: 650px;
-  margin: 1rem 0 1rem 0;
-padding:  0.5rem 0;
-}
 
 .media-icons{
   font-size: 4rem;
   margin: auto;
+}
+
+
+.slide {
+  margin: auto;
+  width: auto;
 }
 
 #Instant{
@@ -735,12 +690,8 @@ padding:  0.5rem 0;
 }
 
 #Enviar{
-  font-size: 1.1rem;
+  font-size: 1rem;
   width: 150px;
-}
-  
-.banner{
-  display: none;
 }
   }
   
@@ -756,18 +707,14 @@ padding:  0.5rem 0;
     }
   
     /*Video element*/
-     .cover-logo{
-      width: 50px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    .top-buttons a {
-      font-size: 1.8rem;
-      width: 12rem;
-      margin: 5% 5% ;
-    }
-  
+
+  .cover-logo{
+    width: 20px;
+    padding: 1rem 4rem 0 0;
+    margin-left: 3.5rem;
+    margin-right: auto;
+  }
+
     /*menu*/
     .main_menu {
       display: none;
@@ -783,7 +730,7 @@ padding:  0.5rem 0;
       color: #ffffff;
     }
 
-
+  
   
     #times {
       font-size: 40px;
@@ -827,55 +774,29 @@ padding:  0.5rem 0;
     }
   
     .my_description p {
-      font-size: 0.85rem;
+      font-size: 1rem;
       padding: 1.5rem;
-      margin-top: 10%;
+      margin: 0;
     }
-
-    iframe{
-      max-width:370px ;
-      height: 210px;
-      margin-top: 10%;;
+    .white2{
+      max-height: 200px;
     }
-  
   
     #contact_me {
       font-size: 1rem;
-      width: 150px;
+      width: 130px;
+      margin-bottom: 0;
     }
-
-.media{
-  display: none;
-}
-
-.white2{
-  display: none;
-} 
-
-.white2-mobile{
-  display: block;
-  color: #fff;
-  height: 300px;
-} 
-.white-contact {
-display: none;}
-
-.white-mobile {
-  display: block;
-  color: #fff;
-  min-height: 350px;
-  padding: 1rem 0;
-  margin: 1rem 0;}
-
-.white {
-  max-height: 650px;
-  margin: 1rem 0 1rem 0;
-padding:  0.5rem 0;
-}
 
 .media-icons{
   font-size: 4rem;
   margin: auto;
+}
+
+
+.slide {
+  margin: auto;
+  width: auto;
 }
 
 #Instant{
@@ -889,11 +810,8 @@ padding:  0.5rem 0;
 }
 
 #Enviar{
-  font-size: 1.1rem;
+  font-size: 1rem;
   width: 150px;
-}
-.banner{
-  display: none;
 }
   }
   
@@ -1165,7 +1083,9 @@ p {
   margin: 0;
 }
 
-
+.mob{
+  display: none;
+}
 .white {
   color: #fff;
   min-height: 350px;
@@ -1204,19 +1124,6 @@ display: none;
 }
 
 
-.banner img{
-  width: 15rem;
-  height: auto;
-}
-
-#instabanner{
-  margin: -5rem 4rem;
-  padding: none;
-  width: 350px;
-  height: 350px;
-}
-}
-  
   /*<<<<<<<<<1290px - 1366px>>>>>>>>>*/
   @media screen and (min-width: 1290px) and (max-width: 1366px) {    
     .button {
@@ -1232,9 +1139,11 @@ display: none;
     }
 
     .top-buttons{
-      margin-top: 25rem;
+      margin-top: 50rem;
     }
-
+    .mob{
+      display: none;
+    }
     /*About*/
     .my_description p {
       font-size: 1.3rem;
@@ -1282,6 +1191,10 @@ display: none;
       width: 250px;
     }
 
+
+    .mob{
+      display: none;
+    }
     /*About*/
     .my_description p {
       font-size: 1.3rem;

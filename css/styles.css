@@ -209,6 +209,11 @@ p {
 }
 
 
+.fa-chevron-down{
+ font-size: 2rem;
+ color: #fff;
+}
+
 .white {
   color: #fff;
   min-height: 350px;
@@ -221,11 +226,18 @@ p {
     padding: 2rem 0;
     margin: 2rem 0;}
 
+
   .white2 {
     color: #fff;
     height: 350px;
-    padding: 2rem 0 0;
+    padding: auto;
     margin: 2rem 0 0;}
+
+    .white21 {
+      color: #fff;
+      min-height: 210px;
+      padding: auto;
+      margin: 2rem 0 0;}
 
 .media-mobile{
 display: none;
@@ -241,9 +253,14 @@ display: none;
 .contact-mobile{
 display: none;
 }
+
+.promociones-mobile{
+  display: none;
+  }
 .media-icons{
   font-size: 5rem;
-  text-align: center;
+  text-align: center
+
 }
 
 
@@ -307,6 +324,19 @@ display: none;
 }
 
 
+.fa-telegram-plane:hover{
+  color:#0088CC;
+  padding: 2rem 2.5rem;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.50);
+  animation: shake 2s ;
+}
+
+
+/*Ofertones*/
+
+
 /*Contact*/
 .media-icons a {
   text-decoration: none;
@@ -329,31 +359,14 @@ display: none;
 
 .form{
   font-family: 'Orbitron', cursive;
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 
-
-.ofertones{
-  margin: 2rem 3rem;
-
-}
 
 .slide {
   margin: auto;
   width: 500%;
-}
-
-
-.banner img{
-  width: 15rem;
-  height: auto;
-  margin:-1rem 2rem 1rem 0;
-}
-
-.afiliado{
-  width: 9rem;
-  margin:0 2rem 1rem 2rem;
 }
 
 

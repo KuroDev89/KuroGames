@@ -15,12 +15,12 @@ $(document).ready(function() {
 });
 
 
-/*CONTACT_ME BUTTON*/
+/*CHEVRON*/
 $(document).ready(function() {
-  $('#contact_me').click(function() {
+  $('#arrow').click(function() {
     $('body,html').animate(
       {
-        scrollTop: $('#contact').offset().top
+        scrollTop: $('#about').offset().top
       },
       1700
     );
