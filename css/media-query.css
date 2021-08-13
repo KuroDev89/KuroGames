@@ -1,5 +1,5 @@
 /** PRINCIPALES MEDIDAS MEDIA QUERY**
-<<<<<<<<<from 360px to 414px>>>>>>>>>>>>>*/
+<<<<<<<<<from 360px to 375px>>>>>>>>>>>>>*/
 @media screen and (max-width: 375px) {
     html #b-about,
     html #b-contact {
@@ -9,8 +9,8 @@
     /*Video element*/
 
   .cover-logo{
-    width: 20px;
-    padding: 1rem 4rem 0 0;
+    min-width: 20px;
+    padding: 1rem 2rem 0 0;
     margin-left: auto;
     margin-right: auto;
   }
@@ -141,10 +141,9 @@
   font-size: 1rem;
   width: 150px;
 }
-
-
-
   }
+
+
   /*<<<<<<<<<from 376px to 414px>>>>>>>>>>>>>*/
   @media screen and (min-width: 376px) and (max-width: 414px) {
     html #b-about,
@@ -155,8 +154,8 @@
     /*Video element*/
 
   .cover-logo{
-    width: 20px;
-    padding: 1rem 4rem 0 0;
+    min-width: 20px;
+    padding: 1rem 1rem 0 0;
     margin-left: auto;
     margin-right: auto;
   }
@@ -299,8 +298,8 @@
     /*Video element*/
 
   .cover-logo{
-    width: 20px;
-    padding: 1rem 4rem 0 0;
+    min-width: 20px;
+    padding: 1rem 0 0 0;
     margin-left: auto;
     margin-right: auto;
   }
@@ -442,12 +441,12 @@
   
     /*Video element*/
 
-  .cover-logo{
-    width: 20px;
-    padding: 1rem 4rem 0 0;
-    margin-left: 3rem;
-    margin-right: auto;
-  }
+    .cover-logo{
+      min-width: 20px;
+      padding: 1rem 0 0 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
     /*menu*/
     .main_menu {
@@ -588,12 +587,12 @@
   
     /*Video element*/
 
-  .cover-logo{
-    width: 20px;
-    padding: 1rem 4rem 0 0;
-    margin-left: 3.5rem;
-    margin-right: auto;
-  }
+    .cover-logo{
+      min-width: 20px;
+      padding: 1rem 0 0 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
     /*menu*/
     .main_menu {
@@ -708,12 +707,12 @@
   
     /*Video element*/
 
-  .cover-logo{
-    width: 20px;
-    padding: 1rem 4rem 0 0;
-    margin-left: 3.5rem;
-    margin-right: auto;
-  }
+    .cover-logo{
+      min-width: 20px;
+      padding: 1rem 0 0 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
     /*menu*/
     .main_menu {
@@ -824,7 +823,8 @@
   
     /*Video element*/
     .cover-logo{
-      width: 20px;
+      min-width: 20px;
+      padding: 1rem 0 0 0;
       margin-left: auto;
       margin-right: auto;
     }
@@ -967,11 +967,11 @@ padding:  0.5rem 0;
   @media screen and (min-width: 986px) and (max-width: 1290px) {
 
     .cover-logo{
-      width: 20px;
+      min-width: 20px;
+      padding: 1rem 0 0 0;
       margin-left: auto;
       margin-right: auto;
     }
-
 
 .button {
 
