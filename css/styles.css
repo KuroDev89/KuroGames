@@ -80,20 +80,11 @@ body {
 }
 
 
-
 .cover-logo{
   min-width: 28rem;
   height: auto;
   margin-top: 3rem;
-
 }
-
-
-.cover-logo {
-  width: 30rem;
-  height: auto;
-}
-
 
 .button {
   background:transparent;
@@ -125,7 +116,7 @@ body {
 .media-button {
   background: #000;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.3rem;
   border-radius: 80px;
   display: inline-block;
   text-align: center;
@@ -204,7 +195,7 @@ ul li:hover {
 
 p {
   text-align: justify;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-family: 'Orbitron', cursive;
 }
 

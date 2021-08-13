@@ -1162,9 +1162,15 @@ display: none;
   /*<<<<<<<<<1366px - morepx>>>>>>>>>*/
   @media screen and (min-width: 1367px) {
     .cover-text{
-      font-size: 3.5rem;
+      font-size: 3.2rem;
       margin-top:45%;
       font-family: 'Passion One', cursive;
+    }
+
+    .cover-logo{
+      min-width: 28rem;
+      height: auto;
+      margin-top: 3rem;
     }
 
 .top-buttons{
@@ -1184,7 +1190,7 @@ display: none;
     }
     
     #contact_me {
-      font-size: 1.2rem;
+      font-size: 1rem;
       width: 180px;
       margin: 0;
     }
@@ -1203,5 +1209,4 @@ display: none;
       height: 350px;
       width: 350px;
     }
-  }
-  
+  }}
