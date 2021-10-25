@@ -1133,7 +1133,7 @@ display: none;
     }
     
     .cover-logo{
-      width: 20px;
+      min-width: 35rem;
       margin-left: auto;
       margin-right: auto;
     }
@@ -1168,7 +1168,7 @@ display: none;
     }
 
     .cover-logo{
-      min-width: 28rem;
+      width: 28rem;
       height: auto;
       margin-top: 3rem;
     }
