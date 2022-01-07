@@ -39,9 +39,24 @@ body {
 }
 
 
+h1,h2{
+  color: #fff;
+  margin: auto;
+}
+
+
+.division{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  min-height: 700px;
+  overflow: hidden;
+}
+
   /*NAVBAR*/
   nav{
     background-color: #000;
+    position: fixed;
   }
     li{
       margin: 0 2rem 0;
@@ -51,7 +66,7 @@ body {
         font-weight: bolder;
       }
 
-        .nav-link:hover {
+        .nav-link:hover { 
           color: #d6b212;
         }
 
@@ -59,3 +74,53 @@ body {
     color: #fff;
     font-size: larger;
   }
+
+ 
+
+  /*COVER*/
+  .full-screen-cover{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000;
+  }
+
+    .portada{
+      margin-top: 3rem;
+    }
+
+
+      #presentation{
+
+        color: #fff;
+      }
+   
+      #cover-logo{
+        width: 25rem;
+
+      }
+
+/*Youtube Stats*/
+.yut{
+  margin: auto;
+}
+
+    .frame{
+      border-radius: 10px;
+      height: 160px;
+      width: auto;
+      padding: none;
+      overflow-y:hidden;
+      margin: 3rem 0 0 0;
+    }
+
+    iframe{
+      margin: 3rem 0 0 0;
+    }
+
+    /*Discord*/
+    .twit-feed{
+      margin-top: 3rem;
+    }

@@ -26,18 +26,12 @@
 
         <!--BOOSTRAP CDN-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <!--BOOSTRAP JS-->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
 
         <!--CSS FILES-->
         <link rel="stylesheet" href="css/styles2.css">
         <link rel="stylesheet" href="css/media-query.css">
         <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+        
 
     </head>
     <body>
@@ -45,9 +39,11 @@
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRKFQ5N"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
-
+        <!--BOOSTRAP JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+                
         <!--NAVBAR-->
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg sticky-top">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"  aria-expanded="false" >
                 <i class="fas fa-bars navbar-toggler-icon"></i>
@@ -68,7 +64,135 @@
               </div>
             </div>
           </nav>
-        
+
+          <!--COVER-->
+          <div id="cover" class="cover-color full-screen-cover ">
+            <div class="container container-fluid">
+              <div class="row text-center align-items-center portada">
+                <div class="col ">
+                  <h2>Bienvenido</h2>
+                  <p id="presentation" ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.5 </p>
+                </div>
+                <div class="col">
+                  <img id="cover-logo" class="wow animated pulse infinite" src="/img/logo.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--YOUTUBE STATS-->
+          <div id="youtube_stats" class="division align-middle">
+            <div class="container container-fluid text-center">
+                <div class="row align-items-center">
+                  <h1>Seguimos Creciendo</h1>
+                  <div class="col">
+                    <div class="col">
+                      <iframe class="frame" src="https://datastudio.google.com/embed/reporting/b7bc50aa-50ef-4b7b-86a7-450884303afd/page/yZyiC" frameborder="0" style="border:0" ></iframe>
+                    </div>
+                    <div class="col">
+                      <iframe class="frame" src="https://datastudio.google.com/embed/reporting/b7bc50aa-50ef-4b7b-86a7-450884303afd/page/p_4vynhg8zqc" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/znsAS563obc?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <!--DISCORD-->
+          <div id="discord_box" class="division align-middle">
+            <div class="container container-fluid text-center">
+              <div class="row align-items-center">
+                <div class="col">
+                  <iframe src="https://discord.com/widget?id=689006825332539419&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                </div>
+                <div class="col twit-feed">
+                  <a class="twitter-timeline" data-lang="es" data-width="375" data-height="500" data-theme="dark" href="https://twitter.com/Kuro_gamesYT?ref_src=twsrc%5Etfw">Tweets by Kuro_gamesYT</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        <!--BANNERS-->
+        <div id="promociones" class="division align-middle">
+          <div class="container container-fluid text-center">
+            <div class="row align-items-center">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <!-- admitad.banner: bmyazi4zax7257749d7716525dc3e8 AliExpress WW -->
+                    <a target="_blank" rel="nofollow" href="https://alitems.site/g/bmyazi4zax7257749d7716525dc3e8/?i=4"><img width="300" height="250" border="0" src="https://ad.admitad.com/b/bmyazi4zax7257749d7716525dc3e8/" alt="AliExpress WW"/></a>
+                    <!-- /admitad.banner -->
+                  
+                    <!-- admitad.banner: uf2i5uzwvm7257749d77ae9a5214fd Enlisted [CPP] Many GEOs -->
+                    <a target="_blank" rel="nofollow" href="https://ad.admitad.com/g/uf2i5uzwvm7257749d77ae9a5214fd/?i=4"><img width="300" height="250" border="0" src="https://ad.admitad.com/b/uf2i5uzwvm7257749d77ae9a5214fd/" alt="Enlisted [CPP] Many GEOs"/></a>
+                    <!-- /admitad.banner -->
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <!-- admitad.banner: zny0n6ewy87257749d776213826a88 Banggood WW -->
+                    <a target="_blank" rel="nofollow" href="https://ad.admitad.com/g/zny0n6ewy87257749d776213826a88/?i=4"><img width="300" height="250" border="0" src="https://ad.admitad.com/b/zny0n6ewy87257749d776213826a88/" alt="Banggood WW"/></a>
+                    <!-- /admitad.banner -->
+
+                    <!-- admitad.banner: 2kf5zj43ng7257749d779b7920dcf6 G2A Many GEOs -->
+                    <a target="_blank" rel="nofollow" href="https://ad.admitad.com/g/2kf5zj43ng7257749d779b7920dcf6/?i=4"><img width="300" height="250" border="0" src="https://ad.admitad.com/b/2kf5zj43ng7257749d779b7920dcf6/" alt="G2A Many GEOs"/></a>
+                    <!-- /admitad.banner -->
+                  </div>
+
+                  <div class="carousel-item">
+                    <!-- admitad.banner: 42l7vwjo6p753f4c8eb5915730f414 Wish Many GEO's -->
+                    <a target="_blank" rel="nofollow" href="https://fas.st/P6vZo"><img width="300" height="250" border="0" src="img/wish.png" alt="Wish Many GEO&#39;s"/></a>
+                    <!-- /admitad.banner -->    
+
+                    <!-- NUUVEM -->
+                    <a target="_blank" rel="nofollow" href="https://redir.lomadee.com/v2/213acd66046"><img width="300" height="250" border="0" src="img/nuuvem.png" alt="Nuuvem juegos para pc, mac y linux"/></a>
+                    <!-- /nuuvem.banner -->  
+                    
+                  </div>
+
+                  <div class="carousel-item">
+                    <!-- admitad.banner: Lenovo 
+                    <a target="_blank" rel="nofollow" href="https://fas.st/mg9quj"><img width="300" height="250" border="0" src="img/lenovo.png" alt="Lenovo"/></a>
+                    /admitad.banner -->     
+                    <!-- admitad.banner: Lenovo -->
+                    <a target="_blank" rel="nofollow" href="https://fas.st/e8szi"><img width="300" height="250" border="0" src="img/250x250.gif" alt="Lenovo"/></a>
+                    <!-- /admitad.banner -->  
+
+                    <!-- admitad.banner: Linio PE -->
+                    <a target="_blank" rel="nofollow" href="https://fas.st/tp0sKe"><img width="300" height="250" border="0" src="img/linio pe.png"/></a>
+                    
+                    
+                  </div>
+
+                  <div class="carousel-item">
+                    <!-- admitad.banner: Linio CO -->
+                  <a target="_blank" rel="nofollow" href="https://fas.st/gEgWGF"><img width="300" height="250" border="0" src="img/linio co.png"/></a>
+                    
+                  <!-- admitad.banner: Linio CL -->
+                    <a target="_blank" rel="nofollow" href="https://fas.st/rj1Eee"><img width="300" height="250" border="0" src="img/linio cl.png"/></a>
+                  
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
