@@ -120,3 +120,18 @@ a{
     .twit-feed{
       margin-top: 3rem;
     }
+
+
+
+ /*FOOTER*/
+ footer{
+  position: absolute;
+  left: 0;
+  bottom:auto;
+  width: 100%;
+  display:inline-block
+ }
+
+ .mb-4{
+   margin-bottom:none!important;
+ }
