@@ -135,3 +135,10 @@ a{
  .mb-4{
    margin-bottom:none!important;
  }
+
+ .trovo{
+   max-width:1rem;
+   margin: 0 0 0.2rem;
+   padding: none;
+   color:#fff
+ }
