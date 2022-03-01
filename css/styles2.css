@@ -142,3 +142,28 @@ a{
    padding: none;
    color:#fff
  }
+
+ /*TO TOP BUTTON*/
+.top {
+  display: none;
+  bottom: 0;
+  right: 0;
+  background: #003c8f;
+  color: #fff;
+  font-size: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  line-height: 1rem;
+  margin: 1.5rem;
+  z-index: 3;
+}
+
+
+.top:hover {
+  background: #fff;
+  color: #000;
+}
+
+.top2 {
+  display: none;
+}
