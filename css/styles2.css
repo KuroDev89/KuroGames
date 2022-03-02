@@ -122,6 +122,38 @@ a{
     }
 
 
+/*Contact*/
+.media-icons a {
+  text-decoration: none;
+  color: unset;
+}
+
+.media-icons a:hover {
+  text-decoration: none;
+}
+
+.escondido {
+  display: none;
+}
+
+#Enviar{
+  font-size: 1.5rem;
+  width: 180px;
+}
+
+
+.form{
+  font-family: 'Bitter', cursive;
+  width: 75%;
+  margin: auto;
+}
+
+
+.slide {
+  margin: auto;
+  width: 500%;
+}
+
 
  /*FOOTER*/
  footer{
@@ -155,7 +187,7 @@ a{
   position: fixed;
   line-height: 1rem;
   margin: 1.5rem;
-  z-index: 3;
+  
 }
 
 
