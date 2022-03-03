@@ -5,6 +5,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+
 }
 
 
@@ -19,6 +20,7 @@ body {
   -webkit-animation: AnimationName 5s ease infinite;
   -moz-animation: AnimationName 5s ease infinite;
   animation: AnimationName 5s ease infinite;
+  overflow-x: hidden;
 }
 
   
@@ -36,6 +38,26 @@ body {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
+}
+
+h1,h2,h3,h4{
+  color: #fff;
+  margin: auto;
+  font-weight: bold;
+}
+
+
+.division{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  min-height: 700px;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: none;
 }
 
 
@@ -228,31 +250,43 @@ p {
       padding: auto;
       margin: 2rem 0 0;}
 
-.media-mobile{
-display: none;
-}
 
-.white2-mobile{
-display: none;
-}
-
-.white-mobile{
-display: none;
-}
-.contact-mobile{
-display: none;
-}
-
-.promociones-mobile{
-  display: none;
-  }
 .media-icons{
   font-size: 5rem;
   text-align: center
 
 }
 
+/*STREAMS*/
+.facebook {
 
+  height: 350px;
+  background:#1b74e4 ;
+  margin: auto;
+  
+}
+
+.twitch{
+
+  height: 350px;
+  background:#6441a5;
+  
+}
+
+.trovo-stream{
+
+  height: 350px;
+  background:#286f80;
+}
+
+.stream img{
+  max-width: 10rem;
+  padding:auto;
+  margin:auto;
+}
+
+
+/*Social Media*/
 .fa-facebook-f:hover{
   color:#3b5998 ;
   padding: 2rem 3rem;
@@ -385,23 +419,23 @@ display: none;
   display: none;
 }
 
-/*footer*/
-footer a:hover {
-  text-decoration: none;
-}
 
-#footer p {
-  background: none;
-  color: #fff;
-  padding:none;
-  font-size: 0.85rem;
-  margin: 0;
-  text-align: center;
-  font-family: 'Roboto', cursive;
-}
+/*FOOTER*/
+footer{
+  position: absolute;
+  left: 0;
+  bottom:auto;
+  width: 100%;
+  display:inline-block
+ }
 
+ .mb-4{
+   margin-bottom:none!important;
+ }
 
-#footer p:hover {
-  font-weight: bold;
-
-}
+ .trovo{
+   max-width:1rem;
+   margin: 0 0 0.2rem;
+   padding: none;
+   color:#fff
+ }
